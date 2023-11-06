@@ -2,8 +2,8 @@ source 'https://rubygems.org'
 
 gem "jekyll", "~> 4.3.2" # installed by `gem jekyll`
 gem "jekyll-github-metadata", ">= 2.15"
-gem "jekyll-include-cache", group: :jekyll_plugins
-#gem "html-proofer", "~> 4.0", :group => :development
+#gem "jekyll-include-cache", group: :jekyll_plugins
+#gem "html-proofer", "~> 5.0", :group => :development
 gem "just-the-docs", "0.7.0" # pinned to the current release
 
 # gem "webrick"        # required when using Ruby >= 3 and Jekyll <= 4.2.2
