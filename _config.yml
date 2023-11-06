@@ -1,46 +1,24 @@
-title: Bulmust's Notes
-description: This is my mixed notes
+title: bulmust's notes
+description: My personal Notes
 theme: just-the-docs
-url: https://github.com/bulmust/bulmust-my-notes/
+url: https://github.com/bulmust/bulmust-my-notes
 aux_links:
-  Bulmust Github https://github.com/bulmust/
+  bulmust github: https://github.com/bulmust
 #! https://just-the-docs.github.io/just-the-docs/docs/configuration/
-
-<<<<<<< HEAD
-# Footer last edited timestamp
-last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
-last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
-
-# Back to top link
-back_to_top: true
-back_to_top_text: "Back to top"
-
-# External navigation links
-nav_external_links:
-  - title: Bulmust Github
-    url: https://github.com/bulmust/
-
-# For copy button on code
-enable_copy_code_button: true
 
 # Avoid liquid processing on code blocks
 # https://jekyllrb.com/docs/liquid/tags/#code-snippet-highlighting
-=======
->>>>>>> parent of b30ac19 (toc creating)
 render_with_liquid: false
 
 # Color scheme supports "light" (default) and "dark"
 color_scheme: dark
-
 mermaid:
   # Version of mermaid library
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
   version: "10.6.0"
-
 # Enable or disable the site search
 # Supports true (default) or false
 search_enabled: true
-
 search:
   # Split pages into sections that can be searched individually
   # Supports 1 - 6, default: 2
@@ -64,6 +42,5 @@ search:
   # Enable or disable the search button that appears in the bottom right corner of every page
   # Supports true or false (default)
   button: false
-
 # Set a path/url to a favicon that will be displayed by the browser
 favicon_ico: "/assets/img/favicon-16x16.png"
