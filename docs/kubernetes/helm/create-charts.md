@@ -22,7 +22,7 @@ A template directive is enclosed in `{{` and `}}`. The template language is base
 
 The values passed into the template from the `values.yaml` file starts with `.Values`. For example, `.Values.prometheus`.
 
-The values passed into the template from the `Chart.yaml` file starts with `.Chart`. For example, `\{\{ .Chart.Name \}\}-\{\{ .Chart.Version \}\}`.
+The values passed into the template from the `Chart.yaml` file starts with `.Chart`. For example, `{% raw %}{{ .Chart.Name }}-{{ .Chart.Version }}{% endraw %}`.
 
 Accesing to all non-special files in a chart are accessed with the `{{ .Files }}` object. For example to access `config.ini`, use `{{ .Files.Get "config.ini" }}`.
 
