@@ -20,7 +20,6 @@ has_children: true
 
 ---
 
-
 This guide covers the chart template specification and the format of the resulting chart archive. See official helm documentation [[1]].
 
 ## Language of Templates
