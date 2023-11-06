@@ -7,12 +7,12 @@ parent: Helm
 grand_parent: Kubernetes
 #has_toc: true
 has_children: true
-render_with_liquid: false
 ---
 
-- [Creating](#creating)
+TOC
+{:toc}
 
-
+---
 # Chart Template Guide For Custom Application
 
 This guide covers the chart template specification and the format of the resulting chart archive. See official helm documentation [[1]].
