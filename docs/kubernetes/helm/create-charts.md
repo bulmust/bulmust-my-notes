@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Create Helm Charts
 nav_order: 1
+title: Helm Charts Creating
+permalink: kubernetes/helm/helm-charts-creating/
 parent: Helm
-permalink: kubernetes/helm/create-charts
 grand_parent: Kubernetes
-#has_children: true
 has_toc: true
+has_children: true
 ---
 
 This is creating helm charts

@@ -1,11 +1,15 @@
 ---
 layout: default
+nav_order: 3
 title: Kubernetes
-nav_order: 2
+permalink: kubernetes/
+#parent: 
+#grand_parent: 
 has_children: true
-permalink: kubernetes/kubernetes
 has_toc: True
 ---
+
+# Helm
 
 ## kubernetes
 
