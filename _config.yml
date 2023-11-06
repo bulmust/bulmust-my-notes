@@ -1,10 +1,53 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Bulmust's Notes
+description: This is my mixed notes
 theme: just-the-docs
-url: https://just-the-docs.github.io
+url: https://github.com/bulmust/bulmust-my-notes/
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Bulmust Github https://github.com/bulmust/
 #! https://just-the-docs.github.io/just-the-docs/docs/configuration/
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+  - jekyll-include-cache
+
+# Footer last edited timestamp
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+
+# Google Analytics Tracking (optional)
+# Supports a CSV of tracking ID strings (eg. "UA-1234567-89,G-1AB234CDE5")
+# Note: the main Just the Docs site does *not* use Google Analytics.
+# ga_tracking: UA-2709176-10,G-5FG1HLH3XQ
+# ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
+
+
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
+  # ignore:
+  #   envs: all
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# External navigation links
+nav_external_links:
+  - title: Bulmust Github
+    url: https://github.com/bulmust/
+
+# For copy button on code
+enable_copy_code_button: true
 
 # Avoid liquid processing on code blocks
 # https://jekyllrb.com/docs/liquid/tags/#code-snippet-highlighting
