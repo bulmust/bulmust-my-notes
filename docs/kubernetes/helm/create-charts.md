@@ -7,6 +7,7 @@ parent: Helm
 grand_parent: Kubernetes
 #has_toc: true
 has_children: true
+render_with_liquid: false
 ---
 
 - [Creating](#creating)
@@ -22,7 +23,7 @@ A template directive is enclosed in `{{` and `}}`. The template language is base
 
 The values passed into the template from the `values.yaml` file starts with `.Values`. For example, `.Values.prometheus`.
 
-The values passed into the template from the `Chart.yaml` file starts with `.Chart`. For example, `{% raw %}{{ .Chart.Name }}-{{ .Chart.Version }}{% endraw %}`.
+The values passed into the template from the `Chart.yaml` file starts with `.Chart`. For example, `{{ .Chart.Name }}-{{ .Chart.Version }}`.
 
 Accesing to all non-special files in a chart are accessed with the `{{ .Files }}` object. For example to access `config.ini`, use `{{ .Files.Get "config.ini" }}`.
 
