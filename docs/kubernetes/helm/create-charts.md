@@ -1,10 +1,10 @@
 ---
 layout: default
 nav_order: 1
-title: Helm Charts Creating
+title: helm-charts-creating
 permalink: kubernetes/helm/helm-charts-creating/
-parent: Helm
-grand_parent: Kubernetes
+parent: helm
+grand_parent: kubernetes
 #has_toc: true
 has_children: true
 ---

@@ -1,9 +1,9 @@
 ---
 layout: default
 nav_order: 1
-title: Helm
+title: helm
 permalink: kubernetes/helm/
-parent: Kubernetes
+parent: kubernetes
 #grand_parent: 
 has_toc: true
 has_children: true

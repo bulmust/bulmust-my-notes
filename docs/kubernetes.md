@@ -1,7 +1,7 @@
 ---
 layout: default
 nav_order: 3
-title: Kubernetes
+title: kubernetes
 permalink: kubernetes/
 #parent: 
 #grand_parent: 
