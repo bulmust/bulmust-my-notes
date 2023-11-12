@@ -14,7 +14,16 @@ math: true
 mermaid: true
 ---
 
-TOC
+# coding
+{: .no_toc}
+
+This is notes for various coding languages.
+{: .fs-6 .fw-300 }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
 {:toc}
 
 ---

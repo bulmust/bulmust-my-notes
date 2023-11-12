@@ -10,9 +10,15 @@ has_children: true
 ---
 
 # Helm
+{: .no_toc }
 
-## Helm
-Hello2
+This is notes for helm.
+{: .fs-6 .fw-300 }
 
-### Helm2
-aa2
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---

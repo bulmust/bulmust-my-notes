@@ -9,7 +9,19 @@ has_children: true
 has_toc: True
 ---
 
-# Apps
+# apps
+{: .no_toc }
+
+This is notes for various apps.
+{: .fs-6 .fw-300 }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
 
 ## Writing Apps
 

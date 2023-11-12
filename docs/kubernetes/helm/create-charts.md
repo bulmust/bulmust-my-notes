@@ -9,6 +9,12 @@ has_toc: true
 has_children: false
 ---
 
+# helm-charts-creating
+{: .no_toc }
+
+This guide covers the chart template specification and the format of the resulting chart archive. See official helm documentation [[1]].
+{: .fs-6 .fw-300 }
+
 ## Table of contents
 {: .no_toc .text-delta }
 
@@ -16,10 +22,6 @@ has_children: false
 {:toc}
 
 ---
-
-# Helm Charts Creating
-
-This guide covers the chart template specification and the format of the resulting chart archive. See official helm documentation [[1]].
 
 ## Language of Templates
 

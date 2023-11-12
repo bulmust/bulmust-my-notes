@@ -14,7 +14,16 @@ math: true
 mermaid: true
 ---
 
-TOC
+# css
+{: .no_toc}
+
+This is notes for css.
+{: .fs-6 .fw-300 }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
 {:toc}
 
 ---

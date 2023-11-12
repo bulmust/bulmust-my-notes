@@ -9,9 +9,16 @@ has_children: true
 has_toc: True
 ---
 
-# Helm
+# kubernetes
+{: .no_toc }
 
-## kubernetes
+This is notes for kubernetes in general.
+{: .fs-6 .fw-300 }
 
-### AAAA
-aaa
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---

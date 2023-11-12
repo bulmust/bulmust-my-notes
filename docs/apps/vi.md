@@ -1,15 +1,27 @@
 ---
 layout: default
 nav_order: 1
-title: Vi
-permalink: apps/vi
+title: vi-vim
+permalink: apps/vi-vim
 parent: apps
 #grand_parent: 
 has_toc: true
 has_children: true
 ---
 
-# Vi
+# vi-vim
+{: .no_toc }
+
+This is notes for vi-vim.
+{: .fs-6 .fw-300 }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
 
 ## Shortcuts
 
