@@ -29,6 +29,41 @@ This is notes for css.
 
 ---
 
+## Number in Circle
+
+```css
+<style>
+.numberCircle {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+
+    #background: #fff;
+    border: 2px solid #666;
+    #color: #666;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+}
+.numberCircle2 {
+    width: 120px;
+    line-height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 32px;
+    border: 2px solid #666;
+}	
+</style>
+```
+
+Example:
+
+```markdown
+<div class="numberCircle">1</div>
+<div class="numberCircle">10</div>
+<div class="numberCircle2">1000</div>
+```
+
 ## Color
 
 ```css
@@ -41,4 +76,18 @@ This is notes for css.
 	grey {color: Grey}
 	blue {color: Blue}
 </style>
+```
+
+
+Example:
+
+```markdown
+- <span style="color:blue">HTML Blue text</span>
+- <red>Red</red>
+- <orange>Orange</orange>
+- <lime>Lime</lime>
+- <aqua>Aqua</aqua>
+- <fuchsia>Fuchsia</fuchsia>
+- <grey>Grey</grey>
+- <blue>Blue</blue>
 ```
