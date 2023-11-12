@@ -7,6 +7,7 @@ parent: helm
 grand_parent: kubernetes
 has_toc: true
 has_children: false
+last_modified_date: true
 ---
 
 # helm-charts-creating
