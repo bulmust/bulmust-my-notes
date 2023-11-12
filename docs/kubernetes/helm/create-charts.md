@@ -5,11 +5,14 @@ title: helm-charts-creating
 permalink: kubernetes/helm/helm-charts-creating/
 parent: helm
 grand_parent: kubernetes
-#has_toc: true
+has_toc: true
 has_children: false
 ---
 
-TOC
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
 {:toc}
 
 ---
