@@ -6,7 +6,7 @@ permalink: kubernetes/helm/helm-charts-creating/
 parent: helm
 grand_parent: kubernetes
 #has_toc: true
-has_children: true
+has_children: false
 ---
 
 TOC
