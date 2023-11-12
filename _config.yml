@@ -17,7 +17,7 @@ footer_content: "Copyright Taygun Bulmus."
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
-last_edit_time_format: "Y-%m-%d %H:%M" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+last_edit_time_format: "%Y-%m-%d" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
 
 # Avoid liquid processing on code blocks
 # https://jekyllrb.com/docs/liquid/tags/#code-snippet-highlighting
