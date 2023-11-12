@@ -25,6 +25,6 @@ This is notes for various apps.
 
 ## Writing Apps
 
-1. [Vi](https://ex-vi.sourceforge.net/). Also [Vim](https://github.com/vim/vim) [My Notes](apps/vi.md)
-   1. [Vim Beginer's Guide](https://www.youtube.com/watch?v=RZ4p-saaQkc)
-   2. [Vim Beginer's Guide](https://www.youtube.com/playlist?list=PLT98CRl2KxKHy4A5N70jMRYAROzzC2a6x)
+1. Official Vi website is [this](https://ex-vi.sourceforge.net/){:target="_blank"}. Also you can check official [Vim websute](https://github.com/vim/vim){:target="_blank"}. My personal notes are [here](apps/vi.md).
+   1. [Vim Beginer's Guide](https://www.youtube.com/watch?v=RZ4p-saaQkc){:target="_blank"}
+   2. [Vim Beginer's Guide](https://www.youtube.com/playlist?list=PLT98CRl2KxKHy4A5N70jMRYAROzzC2a6x){:target="_blank"}
